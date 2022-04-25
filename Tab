@@ -13,3 +13,4 @@ for(let i=0; i<strArray.length; i++){
     obj[i] = {names:value[1],Quantity:value[2],Items:value[3],price:value[4],Currency :value[5]};
 }
 console.table(obj);
+console.log("Table created");
